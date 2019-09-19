@@ -34,7 +34,7 @@ The figure on the left shows the additive mixing of red, green and blue primarie
 ## The HSI Model 
 As mentioned above, colour may be specified by the three quantities hue, saturation and intensity. This is the HSI model, and the entire space of colours that may be specified in this way is shown in figure 7. Figure Figure 7: The HSI model, showing the HSI solid on the left, and the HSI triangle on the right, formed by taking a horizontal slice through the HSI solid at a particular intensity. Hue is measured from red, and saturation is given by distance from the axis. Colours on thesurface of the solid are fully saturated, i.e. pure colours, and the greyscale spectrum is on the axis of the solid. For these colours, hue is undefined. Conversion between the RGB model and the HSI model is quite complicated. The intensity is given by:
 
-> ![](https://latex.codecogs.com/svg.latex?I&space;=&space;\frac{R&space;&plus;&space;G&space;&plus;&space;B}{3})
+> ![](https://latex.codecogs.com/svg.latex?I&space;=&space;\frac{R&plus;G&plus;B}{3})
 
 where the quantities R, G and B are the amounts of the red, green and blue components, normalised to the range [0,1]. The intensity is therefore just the average of the red, green and blue components. The saturation is given by:
 
