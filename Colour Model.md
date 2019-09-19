@@ -26,15 +26,15 @@ Given equally intense blue and green, the blue is perceived as much darker than 
 ## The CIE Chromaticity or The CIE Primaries
 The CIE primaries are those defined by the CIE to make any colours in the visible spectrum. This was required as because it was found that we cannot create all possible visible colours using the three colours Red, Green and Blue.
 
-So CIE primaries x, y, z was defined such that:
+So CIE primaries X, Y, Z whose coordinates in the chart is defined such that:
 
-> ![](https://latex.codecogs.com/svg.latex?x&space;=&space;\frac{R}{R&plus;G&plus;B})
+> ![](https://latex.codecogs.com/svg.latex?x&space;=&space;\frac{X}{X&plus;Y&plus;Z})
 
-> ![](https://latex.codecogs.com/svg.latex?y&space;=&space;\frac{G}{R&plus;G&plus;B})
+> ![](https://latex.codecogs.com/svg.latex?y&space;=&space;\frac{Y}{X&plus;Y&plus;Z})
 
 And as such,
 
-> ![](https://latex.codecogs.com/svg.latex?z&space;=&space;\frac{B}{R&plus;G&plus;B}&space;\Rightarrow&space;z&space;=&space;1&space;-&space;x&space;-&space;y)
+> ![](https://latex.codecogs.com/svg.latex?z&space;=&space;\frac{Z}{X&plus;Y&plus;Z}&space;\Rightarrow&space;z&space;=&space;1&space;-&space;x&space;-&space;y)
 
 Thus only x and y is enough to calculate z and thus represent all colours.
 
@@ -47,18 +47,18 @@ point within the subspace it defines. Each colour model is oriented towards eith
 ### The RGB Model
 In the RGB model, an image consists of three independent image planes, one in each of the primary colours: red, green and blue. Specifying a particular colour is by specifying the amount of each of the primary components present. The geometry of the RGB colour model for specifying colours using a Cartesian coordinate system is given below. The greyscale spectrum, i.e. those colours made from equal amounts of each primary, lies on the line joining the black and white vertices.
 
-![RGB Colour Model Geometry]()
+![RGB Colour Model Geometry](Images/RGBGeom.gif)
 
 This is an additive model, i.e. the colours present in the light add to form new colours, and is appropriate for the mixing of coloured light. for example. The following image shows the additive mixing of red, green and blue primaries to form the three secondary colours yellow (red + green), cyan (blue + green) and magenta (red + blue), and white (red + green + blue).
 
-![RGB Additive Chart]()
+![RGB Additive Chart](Images/RGBAdditive.png)
 
 The RGB model is used for colour monitors and most video cameras.
 
 ### The CMY Model
 The CMY (cyan-magenta-yellow) model is a subtractive model appropriate to absorption of colours, for example due to pigments in paints. Whereas the RGB model asks what is added to black to get a particular colour, the CMY model asks what is subtracted from white. In this case, the primaries are cyan, magenta and yellow, with red, green and blue as secondary colours.
 
-![CMY Colour Model Geometry]()
+![CMY Colour Model Geometry](Images/RGBCMYColourCube.png)
 
 When a surface coated with cyan pigment is illuminated by white light, no red light is reflected, and similarly for magenta and green, and yellow and blue. The relationship between the RGB and CMY models is given by:
 
@@ -68,16 +68,16 @@ When a surface coated with cyan pigment is illuminated by white light, no red li
 
 The CMY model is used by printing devices and filters.
 
-![CMY Subtractive Chart]()
+![CMY Subtractive Chart](Images/CMYSubtarctive.png)
 
 The figure on the left shows the additive mixing of red, green and blue primaries to form the three secondary colours yellow (red + green), cyan (blue + green) and magenta (red + blue), and white (red + green + blue). The figure on the right shows the three subtractive primaries, and their pairwise combinations to form red, green and blue, and finally black by subtracting all three primaries from white.
 
-![RGB vs CMY Colour Mixing Model]() 
+![RGB vs CMY Colour Mixing Model](Images/CMYvsRGB.gif) 
 
 ### The HSI Model 
 As mentioned above, colour may be specified by the three quantities hue, saturation and intensity. This is the HSI model, and the entire space of colours that may be specified in this way is shown.
 
-![HSI Colour Model Geometry]()
+![HSI Colour Model Geometry](Images/HSIColourModel.png)
 
 The HSI model, showing the HSI solid on the left, and the HSI triangle on the right, formed by taking a horizontal slice through the HSI solid at a particular intensity. Hue is measured from red, and saturation is given by distance from the axis. Colours on thesurface of the solid are fully saturated, i.e. pure colours, and the greyscale spectrum is on the axis of the solid. For these colours, hue is undefined. Conversion between the RGB model and the HSI model is quite complicated. The intensity is given by:
 
@@ -94,8 +94,13 @@ where the quantities R, G and B are the amounts of the red, green and blue compo
 where the min(R,G,B) term is really just indicating the amount of white present. If any of R, G or B are zero, there is no white and we have a pure colour.
 
 ### The YIQ Model
-The YIQ (luminance-inphase-quadrature) model is a recoding of RGB for colour television, and is a very important model for colour image processing. The importance of luminance was discussed in the first section. The conversion from RGB to YIQ is given by:
+The YIQ (luminance-inphase-quadrature) model is a recoding of RGB for colour television, and is a very important model for colour image processing. The importance of luminance was discussed in the first section.
 
+The Colour or IQ portion of the YIQ Model is given below:
+
+![YIQ Colour Chart](Images/YIQColourChart.png)
+
+The conversion from RGB to YIQ is given by:
 
 > ![](https://latex.codecogs.com/svg.latex?\begin{bmatrix}&space;Y\\\\&space;I\\\\&space;Q&space;\end{bmatrix}&space;=&space;\begin{bmatrix}&space;0.299&space;&&space;0.587&space;&&space;0.114\\\\&space;0.596&space;&&space;-0.275&space;&&space;-0.321\\\\&space;0.212&space;&&space;-0.523&space;&&space;0.311&space;\end{bmatrix}&space;\cdot&space;\begin{bmatrix}&space;R\\\\&space;G\\\\&space;B&space;\end{bmatrix})
 
