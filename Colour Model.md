@@ -20,8 +20,9 @@ The CMY (cyan-magenta-yellow) model is a subtractive model appropriate to absorp
 
 When a surface coated with cyan pigment is illuminated by white light, no red light is reflected, and similarly for magenta and green, and yellow and blue. The relationship between the RGB and CMY models is given by:
 
+> 
 > ![](https://latex.codecogs.com/svg.latex?\begin{bmatrix}&space;C\\\\&space;M\\\\&space;Y&space;\end{bmatrix}&space;=&space;\begin{bmatrix}&space;1\\\\&space;1\\\\&space;1&space;\end{bmatrix}&space;-&space;\begin{bmatrix}&space;R\\\\&space;G\\\\&space;B&space;\end{bmatrix})
-
+> 
 
 The CMY model is used by printing devices and filters.
 
@@ -34,12 +35,15 @@ The figure on the left shows the additive mixing of red, green and blue primarie
 ## The HSI Model 
 As mentioned above, colour may be specified by the three quantities hue, saturation and intensity. This is the HSI model, and the entire space of colours that may be specified in this way is shown in figure 7. Figure Figure 7: The HSI model, showing the HSI solid on the left, and the HSI triangle on the right, formed by taking a horizontal slice through the HSI solid at a particular intensity. Hue is measured from red, and saturation is given by distance from the axis. Colours on thesurface of the solid are fully saturated, i.e. pure colours, and the greyscale spectrum is on the axis of the solid. For these colours, hue is undefined. Conversion between the RGB model and the HSI model is quite complicated. The intensity is given by:
 
+> 
 > ![](https://latex.codecogs.com/svg.latex?I&space;=&space;\frac{R&plus;G&plus;B}{3})
+> 
 
 where the quantities R, G and B are the amounts of the red, green and blue components, normalised to the range [0,1]. The intensity is therefore just the average of the red, green and blue components. The saturation is given by:
 
-> ![](https://latex.codecogs.com/svg.latex?S&space;=&space;1)
-> S = 1 - min(R,G,B)/I = 1 - 3 * min(R,G,B)/(R+G+B)
+> 
+> ![](https://latex.codecogs.com/svg.latex?S&space;=&space;1&space;-&space;\frac{min(R,G,B)}{I}&space;=&space;1&space;-&space;\frac{3*min(R,G,B)}{R&plus;G&plus;B})
+> 
 
 where the min(R,G,B) term is really just indicating the amount of white present. If any of R, G or B are zero, there is no white and we have a pure colour. The expression for the hue, and details of the derivation may be found in reference [1].
 
