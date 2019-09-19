@@ -20,7 +20,7 @@ The CMY (cyan-magenta-yellow) model is a subtractive model appropriate to absorp
 
 When a surface coated with cyan pigment is illuminated by white light, no red light is reflected, and similarly for magenta and green, and yellow and blue. The relationship between the RGB and CMY models is given by:
 
-> ![](https://latex.codecogs.com/svg.latex?\begin{bmatrix}&space;C\\\\&space;M\\\\&space;Y&space;\end{bmatrix}&space;=&space;\begin{bmatrix}&space;1\\\\&space;1\\\\&space;1&space;\end{bmatrix}&space;&minus;&space;\begin{bmatrix}&space;R\\\\&space;G\\\\&space;B&space;\end{bmatrix})
+> ![](https://latex.codecogs.com/svg.latex?\begin{bmatrix}&space;C\\\\&space;M\\\\&space;Y&space;\end{bmatrix}&space;=&space;\begin{bmatrix}&space;1\\\\&space;1\\\\&space;1&space;\end{bmatrix}&space;-&space;\begin{bmatrix}&space;R\\\\&space;G\\\\&space;B&space;\end{bmatrix})
 
 
 The CMY model is used by printing devices and filters.
