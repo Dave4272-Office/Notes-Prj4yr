@@ -7,7 +7,7 @@ used to simplify image analysis, e.g. object identification and extraction based
 Three independent quantities are used to describe any particular colour.
 The hue is determined by the dominant wavelength. Visible colours occur between about 400nm (violet) and 700nm (red) on the electromagnetic spectrum, as shown in figure 1. Figure
 
-![Visible EM Spectrum]()
+![Visible EM Spectrum](Images/EMSpectrum.jpg)
 
 The saturation is determined by the excitation purity, and depends on the amount of white light mixed with the hue. A pure hue is fully saturated, i.e. no white light mixed in. 
 
@@ -38,7 +38,7 @@ And as such,
 
 Thus only x and y is enough to calculate z and thus represent all colours.
 
-![CIE Chromaticity Diagram]()
+![CIE Chromaticity Diagram](Images/CIEChromaticity.jpg)
 
 ## Colour Models
 Colour models provide a standard way to specify a particular colour, by defining a 3-D coordinate system, and a subspace that contains all construct-able colours within a particular model. Any colour that can be specified using a model will correspond to a single
