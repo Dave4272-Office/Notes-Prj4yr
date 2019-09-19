@@ -1,11 +1,7 @@
 # Colour Image Processing
-The human visual system can distinguish hundreds of thousands of different colour shades
-and intensities, but only around 100 shades of grey. Therefore, in an image, a great deal of
-extra information may be contained in the colour, and this extra information can then be
-used to simplify image analysis, e.g. object identification and extraction based on colour.
+The human visual system can distinguish hundreds of thousands of different colour shades and intensities, but only around 100 shades of grey. Therefore, in an image, a great deal of extra information may be contained in the colour, and this extra information can then be used to simplify image analysis, e.g. object identification and extraction based on colour.
 
-Three independent quantities are used to describe any particular colour.
-The hue is determined by the dominant wavelength. Visible colours occur between about 400nm (violet) and 700nm (red) on the electromagnetic spectrum, as shown in figure 1. Figure
+Three independent quantities are used to describe any particular colour. The hue is determined by the dominant wavelength. Visible colours occur between about 400nm (violet) and 700nm (red) on the electromagnetic spectrum.
 
 ![Visible EM Spectrum](Images/EMSpectrum.jpg)
 
@@ -68,7 +64,7 @@ When a surface coated with cyan pigment is illuminated by white light, no red li
 
 The CMY model is used by printing devices and filters.
 
-![CMY Subtractive Chart](Images/CMYSubtarctive.png)
+![CMY Subtractive Chart](Images/CMYSubtractive.png)
 
 The figure on the left shows the additive mixing of red, green and blue primaries to form the three secondary colours yellow (red + green), cyan (blue + green) and magenta (red + blue), and white (red + green + blue). The figure on the right shows the three subtractive primaries, and their pairwise combinations to form red, green and blue, and finally black by subtracting all three primaries from white.
 
