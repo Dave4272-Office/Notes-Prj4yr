@@ -28,13 +28,13 @@ The CIE primaries are those defined by the CIE to make any colours in the visibl
 
 So CIE primaries x, y, z was defined such that:
 
-> ![](https://latex.codecogs.com/svg.latex?x&space;=&space;\frac{R}{R&plus;G&plusB})
+> ![](https://latex.codecogs.com/svg.latex?x&space;=&space;\frac{R}{R&plus;G&plus;B})
 
-> ![](https://latex.codecogs.com/svg.latex?y&space;=&space;\frac{G}{R&plus;G&plusB})
+> ![](https://latex.codecogs.com/svg.latex?y&space;=&space;\frac{G}{R&plus;G&plus;B})
 
 And as such,
 
-> ![](https://latex.codecogs.com/svg.latex?z&space;=&space;\frac{B}{R&plus;G&plusB}&space;\Rightarrow&space;z&space;=&space;1&space;-&space;x&space;-&space;y)
+> ![](https://latex.codecogs.com/svg.latex?z&space;=&space;\frac{B}{R&plus;G&plus;B}&space;\Rightarrow&space;z&space;=&space;1&space;-&space;x&space;-&space;y)
 
 Thus only x and y is enough to calculate z and thus represent all colours.
 
