@@ -66,7 +66,7 @@ The CMY model is used by printing devices and filters.
 
 ![CMY Subtractive Chart](Images/CMYSubtractive.png)
 
-The figure on the left shows the additive mixing of red, green and blue primaries to form the three secondary colours yellow (red + green), cyan (blue + green) and magenta (red + blue), and white (red + green + blue). The figure on the right shows the three subtractive primaries, and their pairwise combinations to form red, green and blue, and finally black by subtracting all three primaries from white.
+The figure on the right shows the additive mixing of red, green and blue primaries to form the three secondary colours yellow (red + green), cyan (blue + green) and magenta (red + blue), and white (red + green + blue). The figure on the left shows the three subtractive primaries, and their pairwise combinations to form red, green and blue, and finally black by subtracting all three primaries from white.
 
 ![RGB vs CMY Colour Mixing Model](Images/CMYvsRGB.gif) 
 
